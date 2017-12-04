@@ -1,4 +1,4 @@
-### PG Coding Challenge Module Example
+### James Lowenthal's PG Coding Challenge Module Example
 
 This repository provides a running example of the usage of the [PG Coding Challenge Module](https://github.com/JamesAnthonyLow/pg_coding_challenge_module/blob/master/README.md) built as a solution to the problem stated in the interview [spec](https://docs.google.com/document/d/15f4hiBdM26FcEdJDLWt7tacP5Jic5StUlwv4JLxT9BU/edit).  The PG Coding Challenge Module is located a submodule of this repository in ```./pg_coding_challenge_module```
 

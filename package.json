@@ -42,7 +42,9 @@
     "test:clean": "rimraf ./coverage",
     "test": "cross-env NODE_ENV=test jest --coverage",
     "test:watch": "cross-env NODE_ENV=test jest --watchAll",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "docker:build": "docker build -t pg_coding_challenge_module_example .",
+    "docker:run": "docker run -p -d 3000:3000 pg_coding_challenge_module_example"
   },
   "lint-staged": {
     "*.js": "lint:eslint"

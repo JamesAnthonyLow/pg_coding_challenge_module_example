@@ -1,6 +1,6 @@
 ### PG Coding Challenge Module Example
 
-This repository provides a running example of the usage of the [PG Coding Challenge Module](https://github.com/JamesAnthonyLow/pg_coding_challenge_module/blob/master/README.md) built as a solution to the problem stated in the interview [spec](https://docs.google.com/document/d/15f4hiBdM26FcEdJDLWt7tacP5Jic5StUlwv4JLxT9BU/edit).
+This repository provides a running example of the usage of the [PG Coding Challenge Module](https://github.com/JamesAnthonyLow/pg_coding_challenge_module/blob/master/README.md) built as a solution to the problem stated in the interview [spec](https://docs.google.com/document/d/15f4hiBdM26FcEdJDLWt7tacP5Jic5StUlwv4JLxT9BU/edit).  The PG Coding Challenge Module is located a submodule of this repository in ```./pg_coding_challenge_module```
 
 The PG Coding Challenge Module Example utilizes [Docker](https://www.docker.com/) to satisfy the necessary dependencies for this project.  All of which are specified in the ```package.json``` file in the root directory and can be installed locally by running `npm install` **after running ```git submodule init && git submodule update``` in order to pull the PG Coding Challenge Module local repository**.  If you use docker all you need to do is make sure the Docker daemon is running and then you can use the following bash scripts to run the project:
 

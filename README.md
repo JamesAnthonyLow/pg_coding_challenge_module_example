@@ -31,7 +31,7 @@ Josh $190.80
 Brad $117.00
 ```
 
-This repository was forked from [policygenius/react-skeleton](https://github.com/policygenius/react-skeleton) and is not meant to represent a good example of a scalable React app but rather to provide a proof-of-concept regarding the PG Coding Challenge Module.
+This repository was forked from [policygenius/react-skeleton](https://github.com/policygenius/react-skeleton).  However it is not meant to represent a good example of a scalable React app but rather to provide a proof-of-concept regarding the PG Coding Challenge Module.
 
 Relevant code for this example is located in the ```app/containers/App``` folder:
 

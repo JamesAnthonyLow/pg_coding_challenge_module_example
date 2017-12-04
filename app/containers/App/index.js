@@ -37,9 +37,21 @@ export default class App extends React.Component {
       hasSleepApnea: this.state.hasSleepApnea,
       hasHeartDisease: this.state.hasHeartDisease,
     };
-    const s = new Subscriber(params, subscriberSchema, pricingSchema);
+    const s = new Subscriber({
+      params,
+      subscriberSchema,
+      pricingSchema,
+    });
     event.preventDefault();
     alert(`${s.name}, $${s.price().toFixed(2)}`);
+    this.setState({
+      name: '',
+      age: '',
+      gender: '',
+      hasAllergies: false,
+      hasSleepApnea: false,
+      hasHeartDisease: false,
+    });
   }
   render() {
     return (

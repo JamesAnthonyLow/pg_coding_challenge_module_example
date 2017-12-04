@@ -221,7 +221,7 @@
     "ip": "1.1.4",
     "lodash": "4.17.2",
     "minimist": "1.2.0",
-    "pg_coding_challenge_module": "file:../pg_coding_challenge_module",
+    "pg_coding_challenge_module": "file:pg_coding_challenge_module",
     "react": "15.4.1",
     "react-bootstrap-form": "^0.1.4-beta6",
     "react-dom": "15.4.1",
